@@ -1,0 +1,38 @@
+body {
+    background-image: url("../images/arena.jpg");
+    background-size: 120%;
+}
+
+#playerRow {
+    position: absolute;
+    float: left;
+    bottom: 0px;
+    margin-bottom: 20%;
+}
+
+#playerImg {
+    margin-left: 20%;
+}
+
+#playerStats {
+    float: left;
+}
+
+#enemyRow {
+    float: right;
+    top: 10%;
+}
+
+#attackBtn {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+#battleOptions {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
