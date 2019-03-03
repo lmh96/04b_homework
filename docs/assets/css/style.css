@@ -1,0 +1,52 @@
+body {
+    background-image: url("../images/arena.jpg");
+    background-size: 120%;
+}
+
+#playerRow {
+}
+
+#playerImg {
+    margin-left: 20%;
+}
+
+#playerStats {
+
+}
+
+#enemyRow {
+    margin-top: 5%;
+}
+
+#enemyImg {
+    
+}
+
+#attackBtn {
+}
+
+#battleOptions {
+    text-align: center;
+}
+
+#optionDiv {
+    bottom: 10px;
+    position: fixed;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: auto;
+}
+
+h2{
+    color: white;
+    outline: black ipx solid;
+}
+
+.flipped {
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -khtml-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+}
