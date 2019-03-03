@@ -60,6 +60,7 @@ $("#charOne").on("click", function() {
     {
         currentEnemy = charOne;
         enemySelected = true;
+        $("#charOne").addClass("flipped");
         $("#enemyImg").append(this);
         $("#charOneStats").hide();
         $("#charOneName").hide();
@@ -86,6 +87,7 @@ $("#charTwo").on("click", function() {
     {
         currentEnemy = charTwo;
         enemySelected = true;
+        $("#charTwo").addClass("flipped");
         $("#enemyImg").append(this);
         $("#charTwoStats").hide();
         $("#charTwoName").hide();
@@ -112,6 +114,7 @@ $("#charThree").on("click", function() {
     {
         currentEnemy = charThree;
         enemySelected = true;
+        $("#charThree").addClass("flipped");
         $("#enemyImg").append(this);
         $("#charThreeStats").hide();
         $("#charThreeName").hide();
@@ -138,6 +141,7 @@ $("#charFour").on("click", function() {
     {
         currentEnemy = charFour;
         enemySelected = true;
+        $("#charFour").addClass("flipped");
         $("#enemyImg").append(this);
         $("#charFourStats").hide();
         $("#charFourName").hide();
