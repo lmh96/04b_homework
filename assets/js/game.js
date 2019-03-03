@@ -232,7 +232,7 @@ function makePlayerCard (player) {
     playerCard.attr("style", "width: 150px; margin-left: 0px; margin-right: auto;");
 
     playerName.addClass("card-title");
-    playerName.text(player.name);
+    playerName.text(player.name + "(YOU)");
 
     playerHp.addClass("card-text");
     playerHp.attr("id", "playerHealth");
